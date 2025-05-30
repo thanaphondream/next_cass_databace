@@ -80,7 +80,7 @@ export default function HomePage() {
   return (
     <div className="p-6 max-w-6xl mx-auto">
       <h1 className="text-3xl font-bold mb-6 text-center text-blue-700">
-        หน้าหลัก
+        ค่าปริมาณฝนในแต่ละสถานนีของประเทศไทย
       </h1>
 
       {/* แผนที่ */}

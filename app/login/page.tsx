@@ -15,7 +15,7 @@ export default function LoginPage() {
 
   const handleLogin = async (): Promise<void> => {
     try {
-      const res = await fetch("https://b4d3-202-29-24-230.ngrok-free.app/api/login", {
+      const res = await fetch("http://10.90.1.118:3001/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),

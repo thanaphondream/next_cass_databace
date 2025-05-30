@@ -118,7 +118,7 @@ const DownloadPage = () => {
 
   return (
     <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">ดูข้อมูลอุตุนิยมวิทยา & ดาวน์โหลด CSV</h1>
+      <h1 className="text-xl font-bold mb-4">ปริมาณฝนในแต่ละเดือน</h1>
 
       {locations.map((loc) => {
         const months = getAvailableMonths(loc.meteorological_id);
